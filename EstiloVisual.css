@@ -5,35 +5,52 @@
     padding: 0;
 }
 
-body{
+  body{
     display: flex;
     justify-content: center;
     align-items: center;
-}
+  }
 
   .main {
-    background-color: rgb(51, 38, 38);
+    /* background-color: rgb(51, 38, 38); */
     display: flex;
     flex-direction: column;
     justify-content: right;
-    /* align-items: center; */
     width: 90%;
-    height: 60%;
+    height: 70%;
   }
 
   .title {
-    background-color: rgb(195, 201, 253);
-    margin-left: 5%;
+    /* background-color: rgb(195, 201, 253); */
     margin-top: 50px;
+    font-size: 500%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .lugar_Frase {
+    /* background-color: rgb(247, 253, 195); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
 
   .sentence {
-    background-color: rgb(231, 201, 201);
-    width: 50%;
-    font-size: 140%;
-    /* height: 60%; */
+    /* background-color: rgb(231, 201, 201); */
+    font-size: 250%;
+    width: 60%;
+    text-align: center;
+    font-style: italic;
   }
 
-  .Author {
-      background-color: rgb(230, 255, 202);
+  .author {
+      /* background-color: rgb(230, 255, 202); */
+      font-size: 200%;
+      text-align: left;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      width: 60%;
+      margin-left: 5%;
   }
